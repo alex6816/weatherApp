@@ -1,0 +1,80 @@
+.head {
+    color: rgb(245, 224, 224);
+    padding:  15px 20px;
+    border-bottom: 1px black;
+    background-color: rgb(7, 14, 114);
+    border-radius: 10px;
+}
+
+.info {
+    position: relative;
+    padding: 10px 0 5px;
+}
+
+#result {
+    padding: 15px 0 20px 20px;
+}
+
+h4 {
+    padding-bottom: 5px;
+}
+
+button {
+    font-size: 17px;
+    margin-left: 10px;
+    padding: 3px;
+    border: solid 1px #517B97;
+    outline: 0;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #89bcdf), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    width:90px;
+    border-radius: 5px;
+}
+
+select {
+    font-size: 17px;
+    padding: 3px;
+    border: solid 1px #517B97;
+    outline: 0;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #89bcdf), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #CAD9E3 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    width:150px;
+    border-radius: 5px;
+    
+}
+span {
+    margin-right: 15px;
+}
+
+@media (max-width: 445px) 
+{
+    button {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    select {
+        margin-right: 20px;
+    }
+}
+@media (max-width: 365px) 
+{
+    button {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    select {
+        margin-right: 0x;
+        margin-top: 10px;
+    }
+}
+
+
+

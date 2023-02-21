@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Georgia, serif;
+}
+body {
+    background-color: lightblue;
+    display: block;
+    min-height: 100vh;
+}
+
+.main-box {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    min-height: 100%;
+}
+
+
+

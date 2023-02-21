@@ -1,0 +1,31 @@
+header {
+    position: relative;
+    width: 100%;
+    color: rgb(3, 53, 32);
+    background-color: rgb(84, 112, 238);
+    font-size: 45px;
+    height: 80px;
+    margin-top: 5px ;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(80, 79, 79, 0.9);
+}
+
+@media (max-width: 460px) 
+{
+    header {
+        font-size: 35px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 330px) 
+{
+    header {
+        font-size: 30px;
+        height: 60px;
+    }
+}
